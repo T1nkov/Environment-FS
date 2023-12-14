@@ -18,11 +18,11 @@ app.put("/:id", (req, res) => {
   const data = updateData(id, label, category, priority);
   res.send(data);
 });
-app.post("", (req, res) => {
-  const { label, category, priority } = req.body;
-  const data = createData(label, category, priority);
-  res.send(data);
-});
+// app.post("", (req, res) => {
+//   const { label, category, priority } = req.body;
+//   const data = createData(label, category, priority);
+//   res.send(data);
+// });
 
 app.delete("/:id", (req, res) => {
   const { id } = req.params;
