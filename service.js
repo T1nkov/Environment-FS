@@ -66,4 +66,4 @@ function deleteData(id) {
 }
 
 module.exports = { getAllData, createData, updateData, deleteData };
-// v
+// АЫВ
